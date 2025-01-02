@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Playwrite+AU+VIC+Guides&family=Rubik+Glitch+Pop&family=Sixtyfour&display=swap');
 
 * {
   padding: 0;
@@ -51,6 +52,33 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
+.rotate-hover-reverse-180:hover {
+  transition: transform 0.3s ease;
+  transform: rotate(-180deg) !important;
+  cursor: pointer;
+}
+
+.rotate-hover-reverse-380:hover {
+  transition: transform 0.3s ease;
+  transform: rotate(380deg) !important;
+  cursor: pointer;
+}
+
+.rotate-180 {
+  transform: rotate(180deg) !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-80 {
+  font-size: 80px;
+}
 /* Sample CSS for the WHY word */
 
 .whyWLetter {
@@ -58,7 +86,6 @@ body {
   font-weight: bold;
   color: aqua;
   text-decoration: underline;
-  text-transform: uppercase;
   font-family: 'Piazolla', sans-serif;
 }
 
@@ -83,49 +110,99 @@ body {
 /* DID word */
 
 .didDLetter {
+  background-color: #89BE97;
+  color: #DB2E83;
+  font-family: "Playwrite AU VIC Guides", serif;
+  text-transform: uppercase;
 }
 
 .didILetter {
+  background-color: #246686;
+  color: #ffff;
+  font-family: "Comic Neue", serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .didDTwoLetter {
+  background-color: #DCB5B5;
+  font-family: 'Ceviche One', sans-serif;
+}
+
+.didDLetter, 
+.didILetter,
+.didDTwoLetter
+ {
+  border-radius: 5px;
 }
 
 /* THE word */
 
 .theTLetter {
+  background-color: #F5EE3C;
+  color: #48EA21;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .theHLetter {
+  background-color: #24B9DB;
 }
 
 .theELetter {
+  background-color: #000;
+  color: transparent;
+  cursor: pointer;
+}
+
+.theELetter:hover {
+  color: #FFF;
+  font-size: 90px;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  background-color: #f53c3c;
+  font-family: "Rubik Glitch Pop", serif;
+  color: #000;
 }
 
 .frontendRLetter {
+  background-color: #9993C5;
+  color: #6A7A67;
 }
 
 .frontendOLetter {
+  font-family: 'Ceviche One', sans-serif;
+  background-color: #9E8103;
 }
 
 .frontendNLetter {
+  font-family: "Sixtyfour", serif;
 }
 
 .frontendTLetter {
+  background-color: #fff;
+}
+
+.frontendTLetter:hover {
+  color: #000;
 }
 
 .frontendELetter {
+  background-color: #F79F0A;
+  color: #D16336;
 }
 
 .frontendNTwoLetter {
+  background-color: #CB6AC6;
+  color: #228694;
 }
 
 .frontendDLetter {
+  background-color: #9A592A;
+  text-decoration: line-through;
 }
 
 /* DEVELOPER word */
@@ -297,6 +374,8 @@ body {
 /* SYMBOLS */
 
 .hyphen {
+  background-color: #3A3132;
+  color: #D16336;
 }
 .exclamation-mark {
 }
