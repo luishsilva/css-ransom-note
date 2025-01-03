@@ -452,57 +452,119 @@ body {
 /* IMPROVE word */
 
 .improveILetter {
+  font-family: "Oleo Script", serif;
 }
 .improveMLetter {
+  font-family: 'Piazolla', sans-serif;
+  font-weight: bold;
+  background-color: #F1DD95;
 }
 .improvePLetter {
+  font-family: "Oleo Script", serif;
+  background-color: #000;
 }
 .improveRLetter {
+  font-family: "Sixtyfour", serif;
+  font-size: 50px;
+  border: 6px solid red !important;
 }
 .improveOLetter {
+  color: #000;
+  border: 10px solid white !important;
 }
 .improveVLetter {
+  background-color: #B3745A;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-size: 60px;
 }
 .improveELetter {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 60px;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 10px solid rgb(3, 158, 57) !important;
+  font-style: italic;
+  font-size: 70px;
 }
 .theirHLetter {
+  border-bottom-right-radius: 25px;
+  font-family: "Sixtyfour", serif;
+  font-size: 35px;
+  background-color: #1FF205;
 }
 .theirELetter {
+  font-family: "Sixtyfour", serif;
+  border: 10px solid yellow !important;
+  background-color: #000;
 }
 .theirILetter {
+  background-color: #E46458;
+  font-size: 35px;
 }
 .theirRLetter {
+  background-color: #5A617B;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  background-color: #021C35;
+  border: 10px solid #4C7080 !important;
+  color: yellow;
+
 }
 .rootOLetter {
+  background-color: #225D4B;
+  border: 10px solid #4B6252 !important;
+  color: red;
 }
 .rootOTwoLetter {
+  background-color: #4B6252;
+  border: 10px solid #021C35 !important;
+  color: #1FF205;
 }
 .rootTLetter {
+  background-color: #4C7080;
+  border: 10px solid #225D4B !important;
+  color: #DB2E83;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  background-color: #EBFD1C;
+  border: 6px solid #225D4B !important;
+  color: #000;
 }
 .skillsKLetter {
+  background-color: #8E9811;
+  border: 6px solid #fff !important;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 45px;
+  color: red;
 }
 .skillsILetter {
+  background-color: #6A720C;
+  color: yellow;
 }
 .skillsLLetter {
+  background-color: #36720C;
 }
 .skillsLTwoLetter {
+  background-color: #35939A;
+  color:#000
 }
 .skillsSTwoLetter {
+  background-color: #EBFD1C;
+  color: #000;
 }
 
 /* SYMBOLS */
